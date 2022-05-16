@@ -1,0 +1,312 @@
+{
+  "id": "83f1a6af-2d3c-452a-8feb-92f3d2078ceb",
+  "version": "2.0",
+  "name": "DCF_Reservation",
+  "url": "https://dcf.wroclaw.pl",
+  "tests": [{
+    "id": "f7b04730-a5d8-4413-97b0-3e3891f0fb12",
+    "name": "Movie_reservation",
+    "commands": [{
+      "id": "49f2f501-ab5e-4b1e-bf57-5565940f69f5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09f3991c-ee38-4662-a7fb-b40846d3f35c",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86ca99a6-4af9-4a4a-a5ae-943908ceffe8",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Repertuar",
+      "targets": [
+        ["linkText=Repertuar", "linkText"],
+        ["css=#menu-item-9416 > .nav-link:nth-child(2)", "css:finder"],
+        ["xpath=//a[contains(text(),'Repertuar')]", "xpath:link"],
+        ["xpath=//li[@id='menu-item-9416']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://dcf.wroclaw.pl/repertuar/')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Repertuar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f441fb2c-2cc6-4464-943f-abd30d079bda",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tab2 sup",
+      "targets": [
+        ["css=#tab2 sup", "css:finder"],
+        ["xpath=//a[@id='tab2']/p[2]/sup", "xpath:idRelative"],
+        ["xpath=//li[2]/a/p[2]/sup", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a667b7a-9bda-422b-a26a-aa37f999d7b2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#tab3 > .date__year",
+      "targets": [
+        ["css=#tab3 > .date__year", "css:finder"],
+        ["xpath=//a[@id='tab3']/p[3]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/p[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e81e2e1-ecc8-4532-949c-9a492c8f8c8a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c036b090-a265-43c8-8cbf-98e8175480e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#content3 .col-xl-8:nth-child(3) .col-12 .link-absolute",
+      "targets": [
+        ["css=#content3 .col-xl-8:nth-child(3) .col-12 .link-absolute", "css:finder"],
+        ["xpath=//div[@id='content3']/div/div[3]/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://dcf.wroclaw.pl/duch-sniegow-2/ ')])[5]", "xpath:href"],
+        ["xpath=//div[3]/div/div[3]/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b18e0c93-4cf6-4aef-82c4-dca46fbab740",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,6)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f868cf1-2e87-4be4-900e-e4097055da78",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "27d90939-fdd1-4404-81d6-861d484ada13",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-8:nth-child(3) > .repertoir__item:nth-child(2) > .link-absolute",
+      "targets": [
+        ["css=.col-sm-8:nth-child(3) > .repertoir__item:nth-child(2) > .link-absolute", "css:finder"],
+        ["xpath=//article[@id='post-13678']/div[3]/div[2]/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ebe832f-049c-4e7f-9a50-fa316b221e63",
+      "comment": "",
+      "command": "click",
+      "target": "css=#repertoir73780 .btn-secondary",
+      "targets": [
+        ["css=#repertoir73780 .btn-secondary", "css:finder"],
+        ["xpath=(//a[contains(text(),'Zarezerwuj bilet')])[6]", "xpath:link"],
+        ["xpath=//div[@id='repertoir73780']/div/div/div/p[5]/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://bilety.dcf.wroclaw.pl/Msi/Default.aspx?event_id=73780&typetran=1&returnlink=https://dcf.wroclaw.pl/duch-sniegow-2/')]", "xpath:href"],
+        ["xpath=//div[3]/div[2]/div/div/div/p[5]/a[2]", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win4559",
+      "windowTimeout": 2000
+    }, {
+      "id": "9a1eac85-58e7-4a44-ade9-77aeb8fd08ab",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win4559}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68f0cfab-c5cd-4370-9a08-07b82cbce143",
+      "comment": "",
+      "command": "click",
+      "target": "id=Seats",
+      "targets": [
+        ["id=Seats", "id"],
+        ["css=#Seats", "css:finder"],
+        ["xpath=//img[@id='Seats']", "xpath:attributes"],
+        ["xpath=//div[@id='mapWrapper']/img", "xpath:idRelative"],
+        ["xpath=//div[3]/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1c6766a-10e9-4e4e-b287-3c2d48c1348a",
+      "comment": "",
+      "command": "click",
+      "target": "id=m_DirectSubmit",
+      "targets": [
+        ["id=m_DirectSubmit", "id"],
+        ["linkText=Rezerwuj teraz", "linkText"],
+        ["css=#m_DirectSubmit", "css:finder"],
+        ["xpath=//a[contains(text(),'Rezerwuj teraz')]", "xpath:link"],
+        ["xpath=//a[@id='m_DirectSubmit']", "xpath:attributes"],
+        ["xpath=//div[@id='ctl00_ContentMain_plSceneMap']/div[7]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"javascript:__doPostBack('ctl00$ContentMain$ctl00$m_DirectSubmit','')\")]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rezerwuj teraz')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b2bbd97-020a-4a3b-a172-5ebb934975bd",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentMain_TextBoxFirstName",
+      "targets": [
+        ["id=ctl00_ContentMain_TextBoxFirstName", "id"],
+        ["name=ctl00$ContentMain$TextBoxFirstName", "name"],
+        ["css=#ctl00_ContentMain_TextBoxFirstName", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentMain_TextBoxFirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='Form1']/div[2]/div[3]/div/div[3]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03af1590-c4a6-441a-b1c7-120d2df29709",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentMain_TextBoxFirstName",
+      "targets": [
+        ["id=ctl00_ContentMain_TextBoxFirstName", "id"],
+        ["name=ctl00$ContentMain$TextBoxFirstName", "name"],
+        ["css=#ctl00_ContentMain_TextBoxFirstName", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentMain_TextBoxFirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='Form1']/div[2]/div[3]/div/div[3]/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Jan"
+    }, {
+      "id": "12e9eb8e-5ce4-4d51-9603-20da633bbd28",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentMain_TextBoxLastName",
+      "targets": [
+        ["id=ctl00_ContentMain_TextBoxLastName", "id"],
+        ["name=ctl00$ContentMain$TextBoxLastName", "name"],
+        ["css=#ctl00_ContentMain_TextBoxLastName", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentMain_TextBoxLastName']", "xpath:attributes"],
+        ["xpath=//form[@id='Form1']/div[2]/div[3]/div/div[3]/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Kowalski"
+    }, {
+      "id": "1f013c49-d446-4e61-b311-e8fee3a051b1",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentMain_TextBoxEmail",
+      "targets": [
+        ["id=ctl00_ContentMain_TextBoxEmail", "id"],
+        ["name=ctl00$ContentMain$TextBoxEmail", "name"],
+        ["css=#ctl00_ContentMain_TextBoxEmail", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentMain_TextBoxEmail']", "xpath:attributes"],
+        ["xpath=//form[@id='Form1']/div[2]/div[3]/div/div[3]/div/div[4]/div/input", "xpath:idRelative"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "jan@kowalski.pl"
+    }, {
+      "id": "7e24f54f-9dba-41a8-b448-74d2e3b9314f",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentMain_TextBoxEmailConfirm",
+      "targets": [
+        ["id=ctl00_ContentMain_TextBoxEmailConfirm", "id"],
+        ["name=ctl00$ContentMain$TextBoxEmailConfirm", "name"],
+        ["css=#ctl00_ContentMain_TextBoxEmailConfirm", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentMain_TextBoxEmailConfirm']", "xpath:attributes"],
+        ["xpath=//form[@id='Form1']/div[2]/div[3]/div/div[3]/div/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "jan@kowalski.pl"
+    }, {
+      "id": "cdbab225-58d3-40d8-aee9-7b34f0f05de8",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentMain_TextBoxPhone",
+      "targets": [
+        ["id=ctl00_ContentMain_TextBoxPhone", "id"],
+        ["name=ctl00$ContentMain$TextBoxPhone", "name"],
+        ["css=#ctl00_ContentMain_TextBoxPhone", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentMain_TextBoxPhone']", "xpath:attributes"],
+        ["xpath=//form[@id='Form1']/div[2]/div[3]/div/div[3]/div/div[6]/div/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "789789789"
+    }, {
+      "id": "0e5b0a4a-2a9e-49b8-8c79-1c236f7f4b1e",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentMain_TextBoxNipRequred",
+      "targets": [
+        ["id=ctl00_ContentMain_TextBoxNipRequred", "id"],
+        ["name=ctl00$ContentMain$TextBoxNipRequred", "name"],
+        ["css=#ctl00_ContentMain_TextBoxNipRequred", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentMain_TextBoxNipRequred']", "xpath:attributes"],
+        ["xpath=//form[@id='Form1']/div[2]/div[3]/div/div[3]/div/div[7]/div/input", "xpath:idRelative"],
+        ["xpath=//div[7]/div/input", "xpath:position"]
+      ],
+      "value": "789789789"
+    }, {
+      "id": "2075ac8a-ee59-4724-a4cf-4cf1c69475e2",
+      "comment": "",
+      "command": "type",
+      "target": "id=ctl00_ContentMain_TextBoxCode",
+      "targets": [
+        ["id=ctl00_ContentMain_TextBoxCode", "id"],
+        ["name=ctl00$ContentMain$TextBoxCode", "name"],
+        ["css=#ctl00_ContentMain_TextBoxCode", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentMain_TextBoxCode']", "xpath:attributes"],
+        ["xpath=//form[@id='Form1']/div[2]/div[3]/div/div[3]/div/div[8]/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[8]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "uhck8"
+    }, {
+      "id": "8ea68843-3d30-4505-85a5-b669999482aa",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentMain_chbAdvertisement",
+      "targets": [
+        ["id=ctl00_ContentMain_chbAdvertisement", "id"],
+        ["name=ctl00$ContentMain$chbAdvertisement", "name"],
+        ["css=#ctl00_ContentMain_chbAdvertisement", "css:finder"],
+        ["xpath=//input[@id='ctl00_ContentMain_chbAdvertisement']", "xpath:attributes"],
+        ["xpath=//form[@id='Form1']/div[2]/div[3]/div/div[3]/div/div[9]/div/label/input", "xpath:idRelative"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e738c43-9a89-4372-804f-3e3acb8d9d69",
+      "comment": "",
+      "command": "click",
+      "target": "id=ctl00_ContentMain_BtnBook2",
+      "targets": [
+        ["id=ctl00_ContentMain_BtnBook2", "id"],
+        ["linkText=Rezerwuję", "linkText"],
+        ["css=#ctl00_ContentMain_BtnBook2", "css:finder"],
+        ["xpath=//a[contains(text(),'Rezerwuję')]", "xpath:link"],
+        ["xpath=//a[@id='ctl00_ContentMain_BtnBook2']", "xpath:attributes"],
+        ["xpath=//form[@id='Form1']/div[2]/div[5]/div/div[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(\"ctl00$ContentMain$BtnBook2\", \"\", true, \"\", \"\", false, true))')]", "xpath:href"],
+        ["xpath=//div/div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Rezerwuję')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "1d8a6bbc-a5b7-49d4-bd2f-444c922b33d0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f7b04730-a5d8-4413-97b0-3e3891f0fb12"]
+  }],
+  "urls": ["https://dcf.wroclaw.pl/"],
+  "plugins": []
+}

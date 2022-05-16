@@ -1,0 +1,295 @@
+17:57:43.491 Navigated to https://dcf.wroclaw.pl/
+17:57:43.697 8f877d109ab4ad7306a4bb974a424236.js?ver=c5a39:2 JQMIGRATE: Migrate is installed, version 3.3.2
+17:57:43.720 DevTools failed to load source map: Could not load content for https://dcf.wroclaw.pl/wp-content/litespeed/js/bootstrap.min.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+17:57:43.941 (index):821 [LiteSpeed] Start Lazy Load Images
+
+17:58:38.677 Navigated to https://bilety.dcf.wroclaw.pl/Msi/OrderTickets.aspx?event_id=73764&typetran=1
+17:58:38.797 OrderTickets.aspx?event_id=73764&typetran=1:35 Uncaught ReferenceError: fbq is not defined
+    at OrderTickets.aspx?event_id=73764&typetran=1:35:9
+(anonymous) @ OrderTickets.aspx?event_id=73764&typetran=1:35
+17:58:38.840 SeatsMap.js?v=022620032825:3 pl
+17:58:38.842 DevTools failed to load source map: Could not load content for https://bilety.dcf.wroclaw.pl/MSI/Themes/msidemo1/Vendors/Scripts/angular.min.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+17:58:38.849 main.js?v=061620100444:82 tooltip
+17:58:38.857 jquery.ptooltip.js?v=020320112732:3 tooltip clickable
+17:58:38.893 OrderTickets.aspx?event_id=73764&typetran=1:371 {_ga: 'GA1.3.1866404248.1650295602', _gid: 'GA1.3.1774279057.1650295602', lang: 'pl', ReturnLink: 'https://dcf.wroclaw.pl/', _gat_gtag_UA_166647799_1: '1'}
+17:58:38.893 OrderTickets.aspx?event_id=73764&typetran=1:372 undefined
+17:58:38.919 OrderTickets.aspx?event_id=73764&typetran=1:18 glowny preloader
+17:58:45.059 Navigated to https://bilety.dcf.wroclaw.pl/Msi/OrderPersonalDataForm.aspx
+17:58:45.141 DevTools failed to load source map: Could not load content for https://bilety.dcf.wroclaw.pl/MSI/Themes/msidemo1/Vendors/Scripts/angular.min.js.map: HTTP error: status code 404, net::ERR_HTTP_RESPONSE_CODE_FAILURE
+17:58:45.168 main.js?v=061620100444:82 tooltip
+17:58:45.180 jquery.ptooltip.js?v=020320112732:3 tooltip clickable
+17:58:45.202 OrderPersonalDataForm.aspx:734          GET https://bilety.dcf.wroclaw.pl/MSI/Seats/code_2045258770.wav 404
+17:58:45.207 OrderPersonalDataForm.aspx:18 glowny preloader
+17:58:45.270 main.js?v=061620100444:32 update.countdown
+17:58:45.369 main.js?v=061620100444:32 update.countdown
+17:58:45.470 main.js?v=061620100444:32 update.countdown
+17:58:45.570 main.js?v=061620100444:32 update.countdown
+17:58:45.669 main.js?v=061620100444:32 update.countdown
+17:58:45.769 main.js?v=061620100444:32 update.countdown
+17:58:45.870 main.js?v=061620100444:32 update.countdown
+17:58:45.980 main.js?v=061620100444:32 update.countdown
+17:58:46.070 main.js?v=061620100444:32 update.countdown
+17:58:46.182 main.js?v=061620100444:32 update.countdown
+17:58:46.269 main.js?v=061620100444:32 update.countdown
+17:58:46.369 main.js?v=061620100444:32 update.countdown
+17:58:46.469 main.js?v=061620100444:32 update.countdown
+17:58:46.570 main.js?v=061620100444:32 update.countdown
+17:58:46.676 main.js?v=061620100444:32 update.countdown
+17:58:46.772 main.js?v=061620100444:32 update.countdown
+17:58:46.869 main.js?v=061620100444:32 update.countdown
+17:58:46.977 main.js?v=061620100444:32 update.countdown
+17:58:47.070 main.js?v=061620100444:32 update.countdown
+17:58:47.181 main.js?v=061620100444:32 update.countdown
+17:58:47.273 main.js?v=061620100444:32 update.countdown
+17:58:47.381 main.js?v=061620100444:32 update.countdown
+17:58:47.470 main.js?v=061620100444:32 update.countdown
+17:58:47.569 main.js?v=061620100444:32 update.countdown
+17:58:47.669 main.js?v=061620100444:32 update.countdown
+17:58:47.775 main.js?v=061620100444:32 update.countdown
+17:58:47.869 main.js?v=061620100444:32 update.countdown
+17:58:47.970 main.js?v=061620100444:32 update.countdown
+17:58:48.071 main.js?v=061620100444:32 update.countdown
+17:58:48.169 main.js?v=061620100444:32 update.countdown
+17:58:48.274 main.js?v=061620100444:32 update.countdown
+17:58:48.382 main.js?v=061620100444:32 update.countdown
+17:58:48.475 main.js?v=061620100444:32 update.countdown
+17:58:48.569 main.js?v=061620100444:32 update.countdown
+17:58:48.679 main.js?v=061620100444:32 update.countdown
+17:58:48.770 main.js?v=061620100444:32 update.countdown
+17:58:48.882 main.js?v=061620100444:32 update.countdown
+17:58:48.975 main.js?v=061620100444:32 update.countdown
+17:58:49.069 main.js?v=061620100444:32 update.countdown
+17:58:49.169 main.js?v=061620100444:32 update.countdown
+17:58:49.269 main.js?v=061620100444:32 update.countdown
+17:58:49.381 main.js?v=061620100444:32 update.countdown
+17:58:49.474 main.js?v=061620100444:32 update.countdown
+17:58:49.571 main.js?v=061620100444:32 update.countdown
+17:58:49.677 main.js?v=061620100444:32 update.countdown
+17:58:49.784 main.js?v=061620100444:32 update.countdown
+17:58:49.871 main.js?v=061620100444:32 update.countdown
+17:58:49.971 main.js?v=061620100444:32 update.countdown
+17:58:50.080 main.js?v=061620100444:32 update.countdown
+17:58:50.173 main.js?v=061620100444:32 update.countdown
+17:58:50.270 main.js?v=061620100444:32 update.countdown
+17:58:50.376 main.js?v=061620100444:32 update.countdown
+17:58:50.471 main.js?v=061620100444:32 update.countdown
+17:58:50.581 main.js?v=061620100444:32 update.countdown
+17:58:50.669 main.js?v=061620100444:32 update.countdown
+17:58:50.769 main.js?v=061620100444:32 update.countdown
+17:58:50.869 main.js?v=061620100444:32 update.countdown
+17:58:50.974 main.js?v=061620100444:32 update.countdown
+17:58:51.070 main.js?v=061620100444:32 update.countdown
+17:58:51.177 main.js?v=061620100444:32 update.countdown
+17:58:51.269 main.js?v=061620100444:32 update.countdown
+17:58:51.380 main.js?v=061620100444:32 update.countdown
+17:58:51.469 main.js?v=061620100444:32 update.countdown
+17:58:51.582 main.js?v=061620100444:32 update.countdown
+17:58:51.675 main.js?v=061620100444:32 update.countdown
+17:58:51.769 main.js?v=061620100444:32 update.countdown
+17:58:51.869 main.js?v=061620100444:32 update.countdown
+17:58:51.972 main.js?v=061620100444:32 update.countdown
+17:58:52.081 main.js?v=061620100444:32 update.countdown
+17:58:52.175 main.js?v=061620100444:32 update.countdown
+17:58:52.285 main.js?v=061620100444:32 update.countdown
+17:58:52.378 main.js?v=061620100444:32 update.countdown
+17:58:52.472 main.js?v=061620100444:32 update.countdown
+17:58:52.579 main.js?v=061620100444:32 update.countdown
+17:58:52.670 main.js?v=061620100444:32 update.countdown
+17:58:52.769 main.js?v=061620100444:32 update.countdown
+17:58:52.870 main.js?v=061620100444:32 update.countdown
+17:58:52.969 main.js?v=061620100444:32 update.countdown
+17:58:53.084 main.js?v=061620100444:32 update.countdown
+17:58:53.169 main.js?v=061620100444:32 update.countdown
+17:58:53.269 main.js?v=061620100444:32 update.countdown
+17:58:53.369 main.js?v=061620100444:32 update.countdown
+17:58:53.469 main.js?v=061620100444:32 update.countdown
+17:58:53.569 main.js?v=061620100444:32 update.countdown
+17:58:53.669 main.js?v=061620100444:32 update.countdown
+17:58:53.770 main.js?v=061620100444:32 update.countdown
+17:58:53.882 main.js?v=061620100444:32 update.countdown
+17:58:53.973 main.js?v=061620100444:32 update.countdown
+17:58:54.073 main.js?v=061620100444:32 update.countdown
+17:58:54.168 main.js?v=061620100444:32 update.countdown
+17:58:54.277 main.js?v=061620100444:32 update.countdown
+17:58:54.375 main.js?v=061620100444:32 update.countdown
+17:58:54.469 main.js?v=061620100444:32 update.countdown
+17:58:54.569 main.js?v=061620100444:32 update.countdown
+17:58:54.669 main.js?v=061620100444:32 update.countdown
+17:58:54.773 main.js?v=061620100444:32 update.countdown
+17:58:54.869 main.js?v=061620100444:32 update.countdown
+17:58:54.981 main.js?v=061620100444:32 update.countdown
+17:58:55.077 main.js?v=061620100444:32 update.countdown
+17:58:55.169 main.js?v=061620100444:32 update.countdown
+17:58:55.284 main.js?v=061620100444:32 update.countdown
+17:58:55.377 main.js?v=061620100444:32 update.countdown
+17:58:55.471 main.js?v=061620100444:32 update.countdown
+17:58:55.581 main.js?v=061620100444:32 update.countdown
+17:58:55.670 main.js?v=061620100444:32 update.countdown
+17:58:55.785 main.js?v=061620100444:32 update.countdown
+17:58:55.870 main.js?v=061620100444:32 update.countdown
+17:58:55.975 main.js?v=061620100444:32 update.countdown
+17:58:56.069 main.js?v=061620100444:32 update.countdown
+17:58:56.170 main.js?v=061620100444:32 update.countdown
+17:58:56.271 main.js?v=061620100444:32 update.countdown
+17:58:56.381 main.js?v=061620100444:32 update.countdown
+17:58:56.470 main.js?v=061620100444:32 update.countdown
+17:58:56.576 main.js?v=061620100444:32 update.countdown
+17:58:56.670 main.js?v=061620100444:32 update.countdown
+17:58:56.772 main.js?v=061620100444:32 update.countdown
+17:58:56.881 main.js?v=061620100444:32 update.countdown
+17:58:56.970 main.js?v=061620100444:32 update.countdown
+17:58:57.070 main.js?v=061620100444:32 update.countdown
+17:58:57.181 main.js?v=061620100444:32 update.countdown
+17:58:57.270 main.js?v=061620100444:32 update.countdown
+17:58:57.370 main.js?v=061620100444:32 update.countdown
+17:58:57.479 main.js?v=061620100444:32 update.countdown
+17:58:57.571 main.js?v=061620100444:32 update.countdown
+17:58:57.670 main.js?v=061620100444:32 update.countdown
+17:58:57.776 main.js?v=061620100444:32 update.countdown
+17:58:57.870 main.js?v=061620100444:32 update.countdown
+17:58:57.980 main.js?v=061620100444:32 update.countdown
+17:58:58.074 main.js?v=061620100444:32 update.countdown
+17:58:58.171 main.js?v=061620100444:32 update.countdown
+17:58:58.270 main.js?v=061620100444:32 update.countdown
+17:58:58.375 main.js?v=061620100444:32 update.countdown
+17:58:58.470 main.js?v=061620100444:32 update.countdown
+17:58:58.580 main.js?v=061620100444:32 update.countdown
+17:58:58.675 main.js?v=061620100444:32 update.countdown
+17:58:58.784 main.js?v=061620100444:32 update.countdown
+17:58:58.878 main.js?v=061620100444:32 update.countdown
+17:58:58.974 main.js?v=061620100444:32 update.countdown
+17:58:59.070 main.js?v=061620100444:32 update.countdown
+17:58:59.175 main.js?v=061620100444:32 update.countdown
+17:58:59.270 main.js?v=061620100444:32 update.countdown
+17:58:59.378 main.js?v=061620100444:32 update.countdown
+17:58:59.471 main.js?v=061620100444:32 update.countdown
+17:58:59.572 main.js?v=061620100444:32 update.countdown
+17:58:59.677 main.js?v=061620100444:32 update.countdown
+17:58:59.773 main.js?v=061620100444:32 update.countdown
+17:58:59.881 main.js?v=061620100444:32 update.countdown
+17:58:59.975 main.js?v=061620100444:32 update.countdown
+17:59:00.082 main.js?v=061620100444:32 update.countdown
+17:59:00.175 main.js?v=061620100444:32 update.countdown
+17:59:00.269 main.js?v=061620100444:32 update.countdown
+17:59:00.379 main.js?v=061620100444:32 update.countdown
+17:59:00.470 main.js?v=061620100444:32 update.countdown
+17:59:00.584 main.js?v=061620100444:32 update.countdown
+17:59:00.678 main.js?v=061620100444:32 update.countdown
+17:59:00.772 main.js?v=061620100444:32 update.countdown
+17:59:00.882 main.js?v=061620100444:32 update.countdown
+17:59:00.970 main.js?v=061620100444:32 update.countdown
+17:59:01.085 main.js?v=061620100444:32 update.countdown
+17:59:01.177 main.js?v=061620100444:32 update.countdown
+17:59:01.269 main.js?v=061620100444:32 update.countdown
+17:59:01.380 main.js?v=061620100444:32 update.countdown
+17:59:01.474 main.js?v=061620100444:32 update.countdown
+17:59:01.584 main.js?v=061620100444:32 update.countdown
+17:59:01.671 main.js?v=061620100444:32 update.countdown
+17:59:01.772 main.js?v=061620100444:32 update.countdown
+17:59:01.870 main.js?v=061620100444:32 update.countdown
+17:59:01.970 main.js?v=061620100444:32 update.countdown
+17:59:02.083 main.js?v=061620100444:32 update.countdown
+17:59:02.171 main.js?v=061620100444:32 update.countdown
+17:59:02.271 main.js?v=061620100444:32 update.countdown
+17:59:02.380 main.js?v=061620100444:32 update.countdown
+17:59:02.471 main.js?v=061620100444:32 update.countdown
+17:59:02.582 main.js?v=061620100444:32 update.countdown
+17:59:02.676 main.js?v=061620100444:32 update.countdown
+17:59:02.770 main.js?v=061620100444:32 update.countdown
+17:59:02.879 main.js?v=061620100444:32 update.countdown
+17:59:02.973 main.js?v=061620100444:32 update.countdown
+17:59:03.073 main.js?v=061620100444:32 update.countdown
+17:59:03.176 main.js?v=061620100444:32 update.countdown
+17:59:03.271 main.js?v=061620100444:32 update.countdown
+17:59:03.379 main.js?v=061620100444:32 update.countdown
+17:59:03.474 main.js?v=061620100444:32 update.countdown
+17:59:03.577 main.js?v=061620100444:32 update.countdown
+17:59:03.674 main.js?v=061620100444:32 update.countdown
+17:59:03.770 main.js?v=061620100444:32 update.countdown
+17:59:03.869 main.js?v=061620100444:32 update.countdown
+17:59:03.976 main.js?v=061620100444:32 update.countdown
+17:59:04.071 main.js?v=061620100444:32 update.countdown
+17:59:04.178 main.js?v=061620100444:32 update.countdown
+17:59:04.273 main.js?v=061620100444:32 update.countdown
+17:59:04.371 main.js?v=061620100444:32 update.countdown
+17:59:04.475 main.js?v=061620100444:32 update.countdown
+17:59:04.576 main.js?v=061620100444:32 update.countdown
+17:59:04.678 main.js?v=061620100444:32 update.countdown
+17:59:04.771 main.js?v=061620100444:32 update.countdown
+17:59:04.881 main.js?v=061620100444:32 update.countdown
+17:59:04.975 main.js?v=061620100444:32 update.countdown
+17:59:05.070 main.js?v=061620100444:32 update.countdown
+17:59:05.179 main.js?v=061620100444:32 update.countdown
+17:59:05.273 main.js?v=061620100444:32 update.countdown
+17:59:05.381 main.js?v=061620100444:32 update.countdown
+17:59:05.475 main.js?v=061620100444:32 update.countdown
+17:59:05.584 main.js?v=061620100444:32 update.countdown
+17:59:05.671 main.js?v=061620100444:32 update.countdown
+17:59:05.773 main.js?v=061620100444:32 update.countdown
+17:59:05.881 main.js?v=061620100444:32 update.countdown
+17:59:05.970 main.js?v=061620100444:32 update.countdown
+17:59:06.070 main.js?v=061620100444:32 update.countdown
+17:59:06.176 main.js?v=061620100444:32 update.countdown
+17:59:06.271 main.js?v=061620100444:32 update.countdown
+17:59:06.371 main.js?v=061620100444:32 update.countdown
+17:59:06.474 main.js?v=061620100444:32 update.countdown
+17:59:06.570 main.js?v=061620100444:32 update.countdown
+17:59:06.670 main.js?v=061620100444:32 update.countdown
+17:59:06.771 main.js?v=061620100444:32 update.countdown
+17:59:06.879 main.js?v=061620100444:32 update.countdown
+17:59:06.970 main.js?v=061620100444:32 update.countdown
+17:59:07.083 main.js?v=061620100444:32 update.countdown
+17:59:07.170 main.js?v=061620100444:32 update.countdown
+17:59:07.272 main.js?v=061620100444:32 update.countdown
+17:59:07.380 main.js?v=061620100444:32 update.countdown
+17:59:07.473 main.js?v=061620100444:32 update.countdown
+17:59:07.576 main.js?v=061620100444:32 update.countdown
+17:59:07.675 main.js?v=061620100444:32 update.countdown
+17:59:07.784 main.js?v=061620100444:32 update.countdown
+17:59:07.879 main.js?v=061620100444:32 update.countdown
+17:59:07.972 main.js?v=061620100444:32 update.countdown
+17:59:08.081 main.js?v=061620100444:32 update.countdown
+17:59:08.170 main.js?v=061620100444:32 update.countdown
+17:59:08.283 main.js?v=061620100444:32 update.countdown
+17:59:08.375 main.js?v=061620100444:32 update.countdown
+17:59:08.471 main.js?v=061620100444:32 update.countdown
+17:59:08.571 main.js?v=061620100444:32 update.countdown
+17:59:08.675 main.js?v=061620100444:32 update.countdown
+17:59:08.770 main.js?v=061620100444:32 update.countdown
+17:59:08.878 main.js?v=061620100444:32 update.countdown
+17:59:08.971 main.js?v=061620100444:32 update.countdown
+17:59:09.070 main.js?v=061620100444:32 update.countdown
+17:59:09.171 main.js?v=061620100444:32 update.countdown
+17:59:09.282 main.js?v=061620100444:32 update.countdown
+17:59:09.369 main.js?v=061620100444:32 update.countdown
+17:59:09.469 main.js?v=061620100444:32 update.countdown
+17:59:09.580 main.js?v=061620100444:32 update.countdown
+17:59:09.669 main.js?v=061620100444:32 update.countdown
+17:59:09.769 main.js?v=061620100444:32 update.countdown
+17:59:09.869 main.js?v=061620100444:32 update.countdown
+17:59:09.969 main.js?v=061620100444:32 update.countdown
+17:59:10.084 main.js?v=061620100444:32 update.countdown
+17:59:10.173 main.js?v=061620100444:32 update.countdown
+17:59:10.269 main.js?v=061620100444:32 update.countdown
+17:59:10.372 main.js?v=061620100444:32 update.countdown
+17:59:10.476 main.js?v=061620100444:32 update.countdown
+17:59:10.571 main.js?v=061620100444:32 update.countdown
+17:59:10.600 OrderPersonalDataForm.aspx:852 btnclick
+17:59:10.601 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_rfvTbImie, context: document, selector: '#ctl00_ContentMain_rfvTbImie']
+17:59:10.602 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_revTbImie, context: document, selector: '#ctl00_ContentMain_revTbImie']
+17:59:10.603 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_rfvTbNazwisko, context: document, selector: '#ctl00_ContentMain_rfvTbNazwisko']
+17:59:10.603 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_revTbNazwisko, context: document, selector: '#ctl00_ContentMain_revTbNazwisko']
+17:59:10.603 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_rfvTbEmail, context: document, selector: '#ctl00_ContentMain_rfvTbEmail']
+17:59:10.605 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_revTbEmail, context: document, selector: '#ctl00_ContentMain_revTbEmail']
+17:59:10.606 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_rfvTbEmailConfirm, context: document, selector: '#ctl00_ContentMain_rfvTbEmailConfirm']
+17:59:10.606 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_cvTbEmailConfirm, context: document, selector: '#ctl00_ContentMain_cvTbEmailConfirm']
+17:59:10.607 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_rfvPhoneCountryCode, context: document, selector: '#ctl00_ContentMain_rfvPhoneCountryCode']
+17:59:10.607 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_rfvPhone, context: document, selector: '#ctl00_ContentMain_rfvPhone']
+17:59:10.608 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_revPhoneCountryCode, context: document, selector: '#ctl00_ContentMain_revPhoneCountryCode']
+17:59:10.608 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_revPhone, context: document, selector: '#ctl00_ContentMain_revPhone']
+17:59:10.609 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_RfvNipRequired, context: document, selector: '#ctl00_ContentMain_RfvNipRequired']
+17:59:10.609 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_RevNipRequired, context: document, selector: '#ctl00_ContentMain_RevNipRequired']
+17:59:10.610 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_CVNipRequired, context: document, selector: '#ctl00_ContentMain_CVNipRequired']
+17:59:10.610 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_rfvTxtCode, context: document, selector: '#ctl00_ContentMain_rfvTxtCode']
+17:59:10.610 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_revTxtCode, context: document, selector: '#ctl00_ContentMain_revTxtCode']
+17:59:10.611 OrderPersonalDataForm.aspx:890 m.fn.init [span#ctl00_ContentMain_cvAdvertisement.js-CheckBoxValidator, context: document, selector: '#ctl00_ContentMain_cvAdvertisement']
