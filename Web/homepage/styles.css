@@ -1,0 +1,94 @@
+:root {
+    --blue: #3aade3;
+    --dark: #0f3a4e;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--blue);
+    background: linear-gradient(to right top, #0f3a4e, #3aade3);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    overflow: hidden;
+}
+
+.flexbox-container {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: absolute;
+    -webkit-backdrop-filter: blur(8px);
+    overflow: hidden;
+    align-items: center;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 20px;
+    max-width: 40vw;
+    max-height: 50vh;
+    padding: 5vw;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, 0.75);
+    background: linear-gradient(to right top, rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.25));
+    border-radius: 20px;
+    position: relative;
+    -webkit-backdrop-filter: blur(8px);
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+}
+
+.flexbox-item-1 {
+    min-height: 200px;
+    min-width: 98vw;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+    flex-grow: 1;
+    min-width: 20vw;
+}
+
+a {
+
+    color: var(--blue);
+    position: relative;
+}
+
+a:after {
+    content: "";
+    width: 0;
+    height: 3px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: var(--blue);
+    background: linear-gradient(90deg, transparent, #3aade3);
+    transition: width 0.3s;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 4vh;
+  background: #3aade3;
+  border-top: solid 1px #eee;
+  display: flex;
+}
+
+.footer p {
+  margin-top: 1vh;
+  text-align: center;
+}

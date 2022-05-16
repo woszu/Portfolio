@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    index
+{% endblock %}
+
+{% block main %}
+    <table class="table table-hover">
+        <thead class="thead-dark">
+            <tr>
+                <th>Stock Symbol</th>
+                <th>Volume</th>
+                <th>Price per share</th>
+                <th>Time</th>
+            </tr>
+        </thead>
+
+    <tbody>
+             {% for transactions in transactions %}
+                <tr>
+                    <td>{{ transactions.symbol }}</td>
+                    <td>{{ transactions.shares }}</td>
+                    <td>{{ (transactions.price_per_share) | usd }}</td>
+                    <td>{{ transactions.transaction_date }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+{% endblock %}

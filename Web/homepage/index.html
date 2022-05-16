@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Wu's CS50 Homepage!</title>
+    </head>
+
+    <body>
+         <div class="flexbox-container">
+
+        <div class="flexbox-item flexbox-item-1">
+            <header>
+            <h2>Hi! My name is Wojciech and...<img src="./WU.png" alt="" width="160" height="160" style="float:right; margin:0px 50px" onclick="myFunction()" ></h2>
+
+            <p>...this is a simple webpage about me and my hobbies and interests other than computer science and - generally speaking - computers.<br> Click on my avatar and check what happens ;)</p>
+        </header>
+        </div>
+        <div class="flexbox-item flexbox-item-2">
+            <a href="./mountains.html">
+                    <h3>Mountains</h3>
+                </a>
+        <a href="./mountains.html"><img src="./mountains.png" alt="" width="150" height="150"></a>
+        </div>
+        <div class="flexbox-item flexbox-item-2">
+            <a href="./climbing.html">
+                    <h3>Climbing</h3>
+                </a>
+                <a href="./climbing.html"><img src="./climbing.png" alt="" width="160" height="160"></a>
+        </div>
+        <div class="flexbox-item flexbox-item-2">
+            <a href="./astro.html">
+                    <h3>Astronomy</h3>
+                </a>
+                <a href="./astro.html"><img src="./astro.gif" alt="" width="160" height="160"></a>
+        </div>
+
+      </div>
+      <footer class="footer">
+    <div class="container">
+      <p>Website by Wojciech Szubstarski 2021 for CS50</p>
+    </div>
+  </footer>
+
+    <script>
+function myFunction() {
+  alert(location.pathname);
+}
+</script>
+
+    </body>
+</html>

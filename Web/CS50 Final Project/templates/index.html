@@ -1,0 +1,40 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    index
+{% endblock %}
+
+{% block main %}
+    <form action="list" method="post">
+
+        <table class="table table-striped table-dark table-sm">
+        <thead class="thead-dark">
+            <tr>
+                <th>Category</th>
+                <th>Winner</th>
+                <th>And the Oscar goes to... </th>
+            </tr>
+        </thead>
+
+    <tbody>
+             {% for movies in movies %}
+                <tr>
+                    <td>{{ movies.category }}</td>
+                    <td>{{ movies.winner }}</td>
+                    <td>{{ movies.entity }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+     <div class="form-group">
+            <input autocomplete="off" autofocus class="form-control" name="year" placeholder="Year" type="number" min="1927" max="2017" required>
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" id="checkbox" autofocus class="form-control" name="winner" value="1" placeholder="Winner only" type="checkbox" >
+            <label for="checkbox" class="indented-checkbox-text">Only Winners</label>
+        </div>
+    <br>
+    <button class="btn btn-primary" type="submit">Show me!</button>
+
+
+{% endblock %}
